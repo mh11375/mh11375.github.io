@@ -1,0 +1,24 @@
+
+
+/*h2 {
+  font-size:3rem;
+}
+.hero {
+    border: 1px solid black;
+    padding: 10rem 5%;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3); /* If our image is bright, we can tone it down with this darker overlay */
+  }
+
+.hero:after {
+    position: absolute;
+    background-image: url('https://images.pexels.com/photos/739407/pexels-photo-739407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260/500x500'); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    z-index: -1;
+    -webit-filter: blur(20px) grayscale(20%);
+    filter: blur(20px) grayscale(20%);
+  }
+  https://medium.com/@luclemo/styling-background-images-with-css-d9f44cb10a32
+  */

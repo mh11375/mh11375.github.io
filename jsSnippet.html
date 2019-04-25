@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>JS Snipped</title>
+  <link rel="stylesheet" href="http://www.teaching-materials.org/common/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <style type="text/css">
+
+ #videos-list img {
+    display: block;
+  }
+  </style>
+ 
+ </head>
+ <body>
+
+<div class="container">
+
+ <div class="row">
+   <div class="col-md-12">
+    <h2 class="page-header">Watch these videos ❤</h> 
+    <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark">
+</a>
+   </div>
+ </div>
+
+
+
+
+ <div class="row">
+   <div class="col-md-3">
+     <ul id="videos-list">
+     </ul>
+   </div>
+   <div class="col-md-9" id="video-watcher">
+   </div>
+ </div>
+
+ <div style="text-align:center; margin-top: 30px; clear:both;">
+<a href="https://info.flagcounter.com/Ac6w"><img src="https://s01.flagcounter.com/map/Ac6w/size_s/txt_000000/border_CCCCCC/pageviews_0/viewers_Viewers/flags_0/" alt="Flag Counter" border="0"></a>
+</div>
+      <a href="https://twitter.com/share?count=none&hashtags=youtube" class="twitter-share-button"
+         data-lang="en">Tweet</a>
+      <script>!function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if(!d.getElementById(id)){
+          js     = d.createElement(s);
+          js.id  = id;
+          js.src = "https://platform.twitter.com/widgets.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }
+      }(document, "script", "twitter-wjs");</script>
+
+<script
+    type="text/javascript"
+    async defer
+    src="//assets.pinterest.com/js/pinit.js"
+></script>
+
+
+
+ 
+<script type="text/javascript" src="http://www.teaching-materials.org/common/youtube.js"></script>
+<script type="text/javascript" src="http://www.teaching-materials.org/common/js/jquery.min.js"></script>
+ <script>
+ function addVideoToList(video){
+   var videoLink = $('<a>');
+   videoLink.append(video.title);
+   var linkUrl      = videoLink.attr('href');
+   var thumbnailUrl = youtube.generateThumbnailUrl(video.youtubeId);
+   var thumbnailImg = $('<img>');
+   thumbnailImg.attr('src', thumbnailUrl);
+   videoLink.append(thumbnailImg);
+   videoLink.on('click', function(e){
+     e.preventDefault();
+     var videoTitle = $('<h2>');
+     videoTitle.html(video.title + ' <small>' + video.author + '</small>');
+     var videoEmbed = $('<iframe></iframe>');
+     videoEmbed.attr('src', youtube.generateEmbedUrl(video.youtubeId));
+     videoEmbed.attr('width', 560);
+     videoEmbed.attr('height', 315);
+     var videoRating = $('<img></img>');
+     videoRating.attr('src', 'https://chart.googleapis.com/chart?chs=225x125&cht=gom&chd=t:' + video.rating);
+     var videoWatcher = $('#video-watcher');
+     videoWatcher.hide();
+     videoWatcher.empty();
+     videoWatcher.append(videoTitle);
+     videoWatcher.append(videoEmbed);
+     videoWatcher.append(videoRating);
+     videoWatcher.fadeIn();
+   });
+   var videoItem = $('<li>');
+   videoItem.append(videoLink);
+   $('#videos-list').append(videoItem);
+ }
+ var videos = [
+   {
+     "youtubeId" : "TddFnTB_7IM",
+     "title"     : "Trip through the 80s",
+     "author"    : "meliberty",
+     "rating": 90
+   },
+   {
+     "youtubeId" : "HwSKkKrUzUk",
+     "title"     : "Circle of Life",
+     "author"    : "parkerjademerce",
+     "rating": 70
+   },
+   {
+     "youtubeId" : "il2IrgFHfsg",
+     "title"     : "The Ooooh Cat",
+     "author"    : "RnBTree",
+     "rating": 60
+   },
+   {
+     "youtubeId" : "epUk3T2Kfno",
+     "title"     : "Otters Holding Hands",
+     "author"    : "cynthiaholmes",
+     "rating": 100
+   }
+ ]
+ for(var i = 0; i < videos.length; i++){
+   addVideoToList(videos[i]);
+ }
+ </script>
+ </body>
+</html>
+      </xmp>
+      </pre>
+</div>
+<script>
+  function showSolution(num){
+    if(confirm('You surrrrre? You can ask for help first, if you want!')){
+      //            document.getElementById('solution' + num).style.display = 'block';
+      document.getElementById('displaySolution').style.display = 'block';
+    }
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+
+#contacts {
+    font-size: 1.3em;
+    background-color: white;
+    display: grid;
+    padding: 20px 25px;
+    grid-row-gap: 15px;
+}
+
+p {
+    font-size: 1em;
+    margin: 20px;
+}
+
+#sitemap {
+    margin: 15px;
+    font-size: 1.1em;
+    background-color: white;
+}
+
+#fun {
+    font-size: 0.8em;
+    border: 1px dotted black;
+    background-color: white;
+}
+
+#cv {
+    padding: 20px 25px;
+    font-size: 1.1em;
+    background-color: white;
+}
+
+.filler {
+    height: 400px;
+}

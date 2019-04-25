@@ -1,0 +1,307 @@
+/* main style sheet for the entire website */
+
+main {
+    background-color: #FAC8CD;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #000000;
+
+}
+
+h1, h2, h3, p, ul {
+    font-family: 'Cantarell', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* main title bar */
+#title {
+    color: #FFFFFF;
+    background: #333333;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#subtitle {
+    text-align: center;    
+    margin-top: -25px;
+}
+
+
+/* nav bar styling*/
+header {
+    background-color: #E16F7C;
+    border: 1px solid #000000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    overflow: hidden;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+a {
+    color: rgb(255, 255, 255); font-size: 14px; line-height: 18px; padding: 9px; font-weight: bolder; text-transform: none; background-image: linear-gradient(to right, rgb(164, 28, 28) 0%, rgb(203, 35, 35) 50%, rgb(117, 20, 20) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 1px solid; display: flex; 
+    
+    }
+
+a:link {
+        text-decoration: none;
+        text-align: center;
+    }
+
+a:hover {
+    background: rgb(252, 100, 100); 
+    }
+
+a:active {
+    background: rgb(248, 8, 8); 
+    }
+
+#copyright {
+    background-color: rgb(231, 43, 43);
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+#social {
+    display: block;
+    font-size: 1.5em;
+    padding-left: 25px;
+}
+
+
+/* styling for the images */ 
+
+#parisfeet {
+    display: block;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    background-size: contain;
+    padding-top: 5px;
+}
+
+#working {
+    background-color: #E16F7C;
+    font-style: italic;
+    font-size: 1.1em;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+#aboutus {
+    display: float;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25%;
+    height: auto;
+    background-size: contain;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#contactus {
+    display: float;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 28%;
+    height: auto;
+    background-size: contain;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+#privacy {
+    display: float;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30%;
+    height: auto;
+    background-size: contain;
+    padding-top: 10px;
+    padding-right: 7px;
+    padding-left: 5px;
+}
+
+#safe1 {
+    display: float;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 18%;
+    height: auto;
+    background-size: contain;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+#safe2 {
+    display: float;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 17.8%;
+    height: auto;
+    background-size: contain;
+    margin-top: -400px;    
+    padding-right: 5px;
+}
+
+#safedating {
+    margin-left: 50px;
+}
+
+#counsel {
+    display: float;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 28%;
+    height: auto;
+    background-size: contain;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+
+.tshirts {
+    display: inline;
+    max-width: 28%;
+    background-size: contain;
+    padding-left: 50px;
+}
+
+.success {
+    border: 5px double #000000;
+    margin-bottom: 10px;
+}
+
+#jm, #fb, #lr, #mm {
+display: float;
+float: right;
+margin-left: auto;
+margin-right: auto;
+background-size: contain;
+padding-top: 5px;
+padding-right: 5px;
+padding-left: 5px;
+}
+
+#jm {
+    max-width: 16%;
+height: auto;
+}
+
+#fb {
+    max-width: 21%;
+height: auto;
+}
+
+#lr {
+    max-width: 11%;
+height: auto;
+}
+
+#mm {
+    max-width: 10.5%;
+    height: auto;
+}
+
+.box {
+    border: 5px double #000000;
+    margin-bottom: 10px;
+}
+
+#sock1, #sock2, #sock3, #sock4, #leftie {
+    display: float;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    }
+    
+#sock1 {
+        max-width: 10.5%;
+        height: auto;
+}
+
+#sock2 {
+        max-width: 9%;
+        height: auto;
+}
+
+#sock3 {
+    max-width: 11%;
+        height: auto;
+}
+
+#sock4 {
+    max-width: 13%;
+        height: auto;
+}
+
+#leftie {
+    max-width: 14%;
+        height: auto;
+}
+
+
+/* styling for the form */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* media query nav bars */
+
+@media screen and (max-width: 600px) {
+nav ul { 
+    display: flex;
+    flex-flow: column wrap;
+} 
+

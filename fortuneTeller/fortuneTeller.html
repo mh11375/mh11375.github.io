@@ -1,0 +1,30 @@
+<!--Document Tyle HTML-->
+
+<html>
+  <head>
+    <title> Fortune Teller </title>
+    <div style="background-color:pink">
+    <link rel="stylesheet" href="fortuneTeller.css">
+  </head>
+  <body>
+
+  <h1><center>WELCOME TO YOUR POTENTIAL FUTURE</center></h1>
+  <h2><center>Fill in the form below to get your fortune...</center></h2>
+  <h3><center><em> Beware what you type, for you may get it...</em></center></h3>
+
+  <center><img src="crystalball.jpg" alt="photo of crystal ball" height="300"></center>
+    <br>
+
+  <center><form name="futureForm">
+    Partner's Name: <input name="partnerName"><br />
+    Number of children you want: <input name="numKids"><br />
+    Where you want to live: <input name="geoLocation"><br />
+    Job Title: <input name="jobTitle"><br />
+    <input type="button" value= "Please look at Console" onClick="console.log('You will be a ' + document.futureForm.jobTitle.value + ' in ' + document.futureForm.geoLocation.value + ', and married to ' + document.futureForm.partnerName.value + ' with ' + document.futureForm.numKids.value + ' kids.');">
+  </form></center>
+    <script src="fortuneTeller.js"> </script>
+
+
+    <h3><center><a href="https://en.wikipedia.org/wiki/Fortune-telling"> History of Fortune Telling</a></center></h3>
+	</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--https://codereview.stackexchange.com/questions/28973/wheel-of-fortune-game-follow-up-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="wheel.js"> </script>
+    <title>Wheel of Fortune game</title>
+</head>
+<body>
+    <header>
+    <h1> Welcome to the Wheel of Fortune!! </h1>
+    <h2> The theme: famous blockbuster movies (English-speaking) </h2>
+    </header>
+    <div id="game">
+        <div id="display"></div>
+        <div id="playArea">
+            <button id="spin">spin wheel</button>
+            <button id="vowel">buy vowel</button>
+            <button id="solve">solve puzzle</button>
+            <button id="newpuzzle">new puzzle</button>
+            <div id="moneyArea">Score: $<span id="money">0</span></div>
+        </div>
+        <div class="clear"></div>
+        <div id="tick">⇩</div>
+        <img id="wheel" src="http://i.imgur.com/R7JYazp.png" data-rotation="0" />
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+body {background-color:orange; width: 750px; margin-left:auto; margin-right:auto;}
+h1{color:yellow; font-size:60px; background-color:green;}
+h2{
+  font-style: italic;
+  text-align: center;
+  color: blue;
+}
+h3{color:red;}
+p {color:purple;}
+#maps {
+  background-color: grey;
+}
+
+#puppycolor {
+  background-color: blue;
+}
+
+#paragraphs {
+  background-color: grey;
+}
+
+#elmopage {
+  background-color: grey;
+}

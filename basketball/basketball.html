@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basketball</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1, p {
+        display: block;
+        font-size: 1.5em;
+        text-align: center;
+        padding: 25px 25px;
+        background-color: #FFFF00;
+    }
+
+    h1 {
+        border: 10px solid red;
+    }
+
+ 
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        border: 2px solid red;
+        
+    }
+    span {
+        border-bottom: 2px solid black;
+    }
+
+
+    body{
+  margin: 0;
+  padding: 0;
+  background-color: rgba(175, 115, 3, 0.336);
+}
+.arrow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.arrow span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid rgb(255, 0, 0);
+    border-right: 5px solid rgb(255, 0, 0);
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
+</style>
+
+
+</head>
+<body>
+    
+<h1> Sorry, we've encountered a 404 error!! </h1>
+<p> <span>A 404 error is a standard response that indicates: </span></p>
+
+   <p>     A server is down. <br>
+        It cannot find the requested content (due to file or domain removal). <br>
+        The requested URL is broken. </p>
+
+<div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+  
+</div>
+
+<img src="img/cat.jpg">
+<p> I'm pretty sure the cat did it. All of it.  </p>
+
+<div><p> Sorry. </p></div>
+<div><p>Bad cat.</p></div>
+<p> 🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈🤷‍🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈</p>
+</body>
+</html>

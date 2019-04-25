@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cookery Guide</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kalam|Kaushan+Script">
+    <link rel="stylesheet" href="css/main2.css">
+    <link rel="stylesheet" href="css/main1.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+
+<body>
+
+
+    <header>
+        <div class="content-wrapper">
+            <nav>
+                <ul>
+                    <li><a href="#eatingGood"> ~ Good Eats ~ </a></li>
+                    <li><a href="#postcards"> ~ Postcards ~ </a></li>
+                    <li><a href="#contacts"> ~ Contact ~ </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="hero">
+        <h1>Lady Austrechild Goiswinth's Guide to Cooking Mythical Beasts</h1>
+        <p>Updated modern cookery for discerning palate</p>
+    </div>
+
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=3.0.1"></script>
+    <script type="text/javascript" src="js/infinite-rotator.js"></script>
+    <div id="rotatingFood">
+        <h1>Selected Menu of Beasts:</h1>
+        <div id="rotating-item-wrapper"><img class="rotating-item" src="img/barbecue-bbq-beef-410648.jpg" alt="bbq beef brisket" />
+            <img class="rotating-item" src="img/ak.jpg" alt="pretend cooked phoenix" />
+            <img class="rotating-item" src="img/al.jpg" alt="pretend cooked hippogriff" />
+            <img class="rotating-item" src="img/ar.jpg" alt="pretend cooked dragon" />
+            <img class="rotating-item" src="img/az.jpg" alt="pretend cooked leviathan" />
+            <img class="rotating-item" src="img/ca.jpg" alt="pretend cooked griffin" />
+            <img class="rotating-item" src="img/co.jpg" alt="pretend cooked hydra" />
+            <img class="rotating-item" src="img/ct.jpg" alt="pretend cooked loch ness monster" />
+            <img class="rotating-item" src="img/dc.jpg" alt="pretend cooked himalayan yeti" />
+            <img class="rotating-item" src="img/de.jpg" alt="pretend cooked chupacabra" />
+            <img class="rotating-item" src="img/fl.jpg" alt="pretend cooked kraken" />
+        </div>
+    </div>
+
+
+    <main role="main">
+        <div class="content-wrapper">
+            <p id="press-quote">Lady Austrechild Goiswinth is as alluring a chef today as she was when she was 450 years ago. — New York News</p>
+
+            <h2>About Lady Austrechild Goiswinth</h2>
+            <p>Lady Austrechild Goiswinth was born unto an upper class household in gothic England, and traveled widely and extensively during her life. She is one of 14 children of her father's first marriage, the only one who lived longer than 780 years,
+                and credits the use of phoneix blood for her longevity. Alas, with phoenixes in decline in this modern age, she's found that substituting unicorn horn and powdered dragons blood to be suffice though she plans a rejuveniation ceremony at
+                Mount Olympus to help her live another five hundred years. For more information on this ceremony and to participate, please <a href="#contacts"><strong>contact us</strong></a>.</p>
+
+            <h2>Our Recipes</h2>
+            <figure>
+                <img src="img1/madame.jpg" alt="woman bending over fireplace cooking">
+                <figcaption>Lady Goiswinth tending to a meal</figcaption>
+            </figure>
+            <p>Although it is known that many, if not all, of these mythical creatures are very difficult to find, once one has obtained the right beast, the menu can be planned accordingly. The tastes are said to be divine, gorgeous, and indeed mythical.
+                Lady Goiswinth has personally tried and tested each of these recipes to ensure that they give the best results, whether you are cooking over an open fire, a roasting pit, modern fan-assisted electric oven, or gas oven- the results should
+                be the same. For authenticity, it is best to consult your local shaman or achlemist to ensure that you have the right ingredients to go with your mythical creature, and if pressed, one can substitute with a good rummage around the woods
+                with the local wilde herbalist.</p>
+
+        </div>
+    </main>
+
+    <div class="outer-wrapper">
+        <header class="clearfix">
+            <h1 id="eatingGood">The Good Eats Directory</h1>
+            <select id="state-list">
+			<option value="usa">Choose a Creature</option>
+			<option value="al">Hippogriff</option>
+			<option value="ak">Phoenix</option>
+			<option value="az">Leviathan</option>
+			<option value="ar">Dragon</option>
+			<option value="ca">Griffin</option>
+			<option value="co">Hydra</option>
+			<option value="ct">Loch Ness Monster</option>
+			<option value="de">Chupacabra</option>
+			<option value="dc">Himalayan Yeti</option>
+			<option value="fl">Kraken</option>
+		</select>
+        </header>
+
+        <div class="main clearfix">
+            <div class="img-holder">
+                <div>
+                    <img id="info-pic" src="img1/usa.jpg" alt="United States of America" width="260" height="260">
+                    <p id="info-name">Creature</p>
+                </div>
+            </div>
+            <div class="info-holder">
+                <p><strong>Creature: </strong><span id="info-abbreviation"> Beast</span></p>
+                <p><strong>Taste: </strong><span id="info-capitol">What does this meat taste like?</span></p>
+                <p><strong>Best method of cooking: </strong><span id="info-population">How best to cook this beast?</span></p>
+                <p><strong>Marinating Time: </strong><span id="info-statehood">How long should you marinade for?</span></p>
+                <p><strong>Herbs: </strong><span id="info-mammal"> What's best when cooking? </span></p>
+                <p><strong>Drinks: </strong><span id="info-bird">What's best to drink with this meal?</span></p>
+                <p><strong>Instagram rating: </strong><span id="info-tree">Is this Instagram worthy? </span></p>
+                <p><strong>Accompaniments: </strong><span id="info-flower"> What sides are recommended?</span></p>
+                <p><strong>Healthcare: </strong><span id="info-nickname">Do you need a doctor?</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="outer-wrapper">
+        <div class="content-wrapper">
+            <header id="postcards">
+                <h1>Postcard Generator</h1>
+                <p class="subtitle">Generate Postcards of a Selection of Meals</p>
+            </header>
+            <main role="main">
+                <div class="first step">
+                    <h2>1. Choose a meal</h2>
+                    <select name="states" id="states">
+					<option selected disabled value="empty-state"></option>
+					<option value="al">Hippogriff</option>
+					<option value="ak">Phoenix</option>
+					<option value="az">Leviathan</option>
+					<option value="ar">Dragon</option>
+					<option value="ca">Griffin</option>
+					<option value="co">Hydra</option>
+					<option value="ct">Loch Ness Monster</option>
+					<option value="de">Chupacabra</option>
+					<option value="dc">Himalayan Yeti</option>
+					<option value="fl">Kraken</option>
+				</select>
+                </div>
+                <div class="second step">
+                    <h2>2. Enjoy Your Meal!</h2>
+                    <div id="postcard">
+                        <p id="greeting">To Generate a Postcard</p>
+                        <p id="state-heading">Choose a meal</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="js/state-data1.js"></script>
+    <script>
+        document.getElementById('state-list').onchange = function() {
+            var selected = this.value;
+            document.getElementById('info-pic').src = 'img1/' + selected + '.jpg';
+            document.getElementById('info-name').textContent = stateData[this.value].name;
+            document.getElementById('info-abbreviation').textContent = stateData[this.value].abbr;
+            document.getElementById('info-capitol').textContent = stateData[this.value].capitol;
+            document.getElementById('info-population').textContent = stateData[this.value].pop;
+            document.getElementById('info-statehood').textContent = stateData[this.value].statehood;
+            document.getElementById('info-mammal').textContent = stateData[this.value].mammal;
+            document.getElementById('info-bird').textContent = stateData[this.value].bird;
+            document.getElementById('info-tree').textContent = stateData[this.value].tree;
+            document.getElementById('info-flower').textContent = stateData[this.value].flower;
+            document.getElementById('info-nickname').textContent = stateData[this.value].nickname;
+        };
+    </script>
+    <footer>
+        <p>Copyright © Mythical Creatures Good Eats </p>
+    </footer>
+
+    <script>
+        var quotesArray = [
+            'Lady Austrechild Goiswinth is as alluring a chef today as she was when she was 450 years old. — New York News',
+            'Lady Goiswinth has released a new cookbook and the masses are thrilled, as they should be. — TransAtlantic Cooking',
+            'Dynamic, resourceful, and hugely impacting... Lady Austrechild Goiswinth does it again with her newest book. — Washington Explores Cookery',
+            'You have not tasted hippogriff until you have had Lady Austrechild Goiswinth cook for you. — Medevial Times',
+            'Food done right. Lady Austrechild Goiswinth best selling new book explores the difficult. - Wall Street Cooks',
+            'Lady Goiswinth cooks up a storm with a new menu of hard to get items, but totally worth it. - Cooks Anonymous',
+            'You are not anyone without a taste of dragon meat. Lady Austrechild Goiswinth does it the best. - Knights Cheffery'
+        ];
+        var randomNumber = Math.floor(Math.random() * quotesArray.length);
+        document.getElementById('press-quote').textContent = '“' + quotesArray[randomNumber].split(' — ')[0] + '” — ' + quotesArray[randomNumber].split(' — ')[1];
+        //console.log( 	quotesArray[randomNumber].split(' — ')[0] );
+    </script>
+    <div class="container">
+        <h1 id="contacts">Lady Austrechild Goiswinth's List</h1>
+        <p>Thank you for your interest in Lady Austrechild Goiswinth's Guide to Cooking Mythical Beasts! Though she's older now, she is still able to do media and press events. Please fill out the form below if you wish to stay in contact with us and we
+            will inform you of her upcoming events!</p>
+
+
+            
+        <div class="form-container">
+            <form id="vol-form">
+                <div class="form-section">
+                    <label for="fullname">Full Name:</label>
+                    <input id="fullname" required name="fname" type="text">
+                </div>
+                <div class="form-section">
+                    <label for="femail">Email:</label>
+                    <input id="femail" required name="email" type="email">
+                </div>
+                <div class="form-section">
+                    <label for="fphone">Phone:</label>
+                    <input id="fphone" required name="phone" type="tel">
+                </div>
+                <input id="submit" type="submit" onclick="contactForm();">
+            </form>
+        </div>
+
+        <script>
+            function contactForm() {
+                window.alert("Your information was submitted. Name: " + document.getElementById('fullname').value + " Email: " + document.getElementById('femail').value + " Phone: " + document.getElementById('fphone').value);
+            }
+        </script>
+
+
+    </div>
+    <footer>
+        <p>Made in NYC <br>Copyright © Yum Yum </p>
+    </footer>
+
+    <script>
+        var states = document.getElementById('states');
+
+        states.onchange = function() {
+            // console.log('state index: ' + states.selectedIndex);
+            // console.log('state name: ' + states.options[states.selectedIndex].text);
+            // console.log('img/' + states.value + '@2x.jpg');
+            document.getElementById('postcard').style.backgroundImage = 'url(img/' + states.value + '.jpg)';
+            document.getElementById('greeting').innerHTML = 'Yum yum!';
+            document.getElementById('state-heading').innerHTML = states.options[states.selectedIndex].text;
+        }
+    </script>
+
+
+</body>
+
+</html>

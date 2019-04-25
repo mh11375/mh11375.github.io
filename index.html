@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MH Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <header>
+        <h1 class="logo">Michelle Hsieh</h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+          <ul>
+            <li><a href="index.html" class="selected">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="resume.html">CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="sitemap.html">Sitemap</a></li>
+          </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+      </header>
+     <aside class="spacer"></aside> 
+      
+    
+
+    <div class="bg-image"></div>
+    <div class="bg-text">
+      <h2>Hi ! 😃 I'm Michelle.</h2>
+      <p>Software Engineer.* Full Stack Developer.*</p>
+    </div>
+
+
+    <section>
+        <p> * #GOALS </p>
+        <p> 👷👷👷This is a work site in progress. Please wear a hard hat at all times. 👷👷👷 </p>
+        <p> **Unicorns are not included in demo but are available to purchase in the gift shop. 🦄🦄 </p>
+    </section>
+
+ 
+    <main>
+    <div class="parallax" id="progress"><h2>The idea is simple: </h2>
+
+        <p><span id="goal">Learn to code, get a great job, <br> become a billionaire, get a puppy...</span> </p>
+    </div>
+    
+    <div class="parallax" id="hello"><h2>Day 1: Hello World!</h2>
+        <p> Ok, not exactly Day 1... but.. I am learning to code!</p>
+        <a href="hellowworld/helloworld.html" target="_blank">Hello World</a>
+    </div>
+    
+    <div class="parallax" id="kermit"><h2>Week 4: Kermit's Pet Shop</h2>
+        <p> Progressed onto multi-page website and internal links </p>
+        <a href="Kermit's Petshop/KermitPetshop.html" target="_blank">~~Kermit's Pet Shop~~</a>
+    </div>
+    
+    <div class="parallax" id="match"><h2>Week 8: Project Code: MatchingPair</h2> 
+        <p> Sock situation has become dire: decide to start a dating site to practice javascript. </p>
+        <a href="MyWebsite/index.html" target="_blank">MatchingPair.com</a>
+    </div>
+    
+    <div class="parallax" id="travel"><h2>Week 10: The Martian Travel Guide</h2>  
+        <p> Some people shoot for the Moon... </p>
+        <a href="The Martian Traveler/index.html" target="_blank">The Martian Traveler</a>
+    </div>
+    
+    <div class="parallax" id="work"><h2>Week...??? Still a work in progress...! </h2>
+    </div>
+    
+    </main>
+    
+    <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+    </script>
+
+ 
+
+    <script>
+    const parallax = document.getElementById("parallax");
+
+window.addEventListener("scroll", function() {
+    let offset = window.pageYOffset;
+    parallax.style.backgroundPositionY = offset * 0.5 + "px";
+})
+    </script>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"> ⬆️ </button>
+
+<footer>
+<p id="copyright"> @ Made with HEART in New York City</p>
+</footer>
+</body>
+</html>

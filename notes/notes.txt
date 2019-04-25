@@ -1,0 +1,195 @@
+https://formspree.io/
+https://github.com/formspree/formspree
+https://tosbourn.com/using-formspree-for-contact-form/
+https://forestry.io/blog/5-ways-to-handle-forms-on-your-static-site/
+https://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870
+
+https://enjoycss.com/gallery/shapes/eY#transition
+https://travishorn.com/buttons-with-custom-shapes-cabdcde7dfd1
+https://medium.freecodecamp.org/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c
+https://medium.com/compass-true-north/css-grid-maintaining-aspect-ratio-and-managing-overflow-ed54c510782a
+https://medium.com/@ajmeyghani/creating-javascript-animations-with-anime-js-f2b14716cdc6
+
+https://stackoverflow.com/questions/48106473/create-custom-html-button-heart-shape
+https://codepen.io/bnewton/pen/KrbLkx
+
+https://speckyboy.com/30-fantastic-examples-fixed-navigation-menus-web-design/
+https://www.webdesignerdepot.com/2018/03/12-fixed-sticky-navbars-thatll-grab-your-attention/
+https://www.awwwards.com/40-websites-with-fixed-navigation.html
+https://www.w3schools.com/howto/howto_css_fixed_menu.asp
+https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-navbar.php
+
+
+
+
+Independent Project Criteria
+- Must have a wireframe sketch and color palette before creating the website.
+- Minimum 3 linked pages or 3 distinct sections on a single-page design with internal linking.
+- Design: a clear divide between navigation, headings, and content. Consistent visual style.
+- Needs to have a consistent color scheme throughout the website, applied using color codes (not using color
+names)
+- Needs an external stylesheet.
+- Needs to have a consistent navigation bar on every page.
+- Home page is named index.html
+- Needs to have Classes and IDs.
+- Needs at least three images. [copyright-free/public domain/ creative commons or labeled with attribution
+(seriously)]
+- Proper folder structure. (all HTML at top-level, CSS in css folder, images in image folder)
+- At least 5 comments in the HTML pages.
+- At least 5 comments on the CSS stylesheet.
+- Needs to use a font from Google Fonts.
+- Needs to be hosted on GitHub Pages.
+Suggested Topics:
+ Food, Cooking, Recipes
+ National Monument
+ Travel Destination
+ Tribute Page to Person, Place, or Thing
+ Non-Profit Organization or Fictional
+Business
+
+https://ihatetomatoes.net/5-days-with-scrollmagic/
+https://medium.com/@MateMarschalko/7-exciting-css-tricks-you-haven-t-heard-about-80d505906795
+
+
+Parallax https://www.youtube.com/watch?v=llv5kW4sz0U
+
+https://www.w3schools.com/howto/howto_css_modal_images.asp
+
+
+https://getemoji.com/
+https://fontawesome.com/icons/github?style=brands
+
+    https://www.jeffhuisa.com/
+    https://github.com/j3ffh95/My-Portfolio
+    https://teamtreehouse.com/jobs
+    https://www.pexels.com/photo/close-up-code-coding-computer-239898/
+    https://www.pexels.com/photo/application-blur-business-code-270408/
+    https://www.pexels.com/photo/photo-of-person-typing-on-computer-keyboard-735911/
+    https://www.pexels.com/photo/apple-magic-keyboard-with-numeric-pad-on-table-near-wireless-mouse-1714205/
+    https://www.pexels.com/photo/close-up-photography-of-program-codes-1089440/
+    https://www.pexels.com/photo/high-angle-view-of-cityscape-against-cloudy-sky-313782/
+    https://www.pexels.com/photo/photography-of-bridge-during-nighttime-1239162/
+    https://www.pexels.com/photo/city-lights-under-night-sky-771881/
+    https://www.pexels.com/photo/aerial-photography-of-city-during-daytime-529621/
+    https://www.pexels.com/photo/america-ancient-architecture-art-356844/
+    https://www.pexels.com/photo/architecture-buildings-business-city-416911/
+    https://www.pexels.com/photo/flat-lay-photography-of-person-touching-silver-ipad-on-world-map-chart-beside-black-hat-1051077/
+    https://www.pexels.com/photo/astronomy-atmosphere-earth-exploration-220201/
+    https://www.pexels.com/photo/black-textile-41949/
+    https://www.pexels.com/photo/black-green-brown-continent-87652/
+    
+    https://www.mockplus.com/blog/post/personal-website-design-examples
+    https://www.mockplus.com/blog/post/web-developer-portfolio
+    https://blog.hubspot.com/marketing/best-personal-websites
+    https://brandyourself.com/blog/branding/best-personal-website-examples/
+    http://www.pascalvangemert.nl/#/contact
+    https://codeburst.io/10-awesome-web-developer-portfolios-d266b32e6154
+    https://www.listenmoneymatters.com/best-personal-websites/
+    https://www.shopify.com/partners/blog/web-design-portfolio-inspiration
+    https://spyrestudios.com/web-developer-portfolio/
+    https://outsourceit.today/web-developer-portfolios/
+
+    https://skillcrush.com/2016/10/31/web-developer-portfolio/
+    https://skillcrush.com/2015/03/12/impressive-tech-portfolio/
+    Engage, inspire. Create. custom
+
+
+    http://www.albinotonnina.com/
+    http://narrowdesign.com/
+
+
+
+    https://www.webhostingsecretrevealed.net/blog/web-design/20-best-personal-websites-in-2013/
+    https://collegeinfogeek.com/personal-website-examples/
+
+    https://gedd.ski/post/the-difference-between-width-and-flex-basis/
+    https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+
+https://www.w3schools.com/cssref/sel_link.asp
+
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Sending_forms_through_JavaScript
+
+
+https://www.google.com/search?q=hero+image&oq=hero+image&aqs=chrome..69i57j0l5.2710j0j7&sourceid=chrome&ie=UTF-8
+https://www.w3schools.com/howto/howto_css_hero_image.asp
+https://www.justinmind.com/blog/10-inspiring-hero-image-websites/
+https://www.optimizely.com/optimization-glossary/hero-image/
+https://www.canva.com/learn/hero-images/
+https://www.artonicweb.com/learn/hero-images/
+https://whatpixel.com/hero-images/
+https://www.wordstream.com/blog/ws/2016/06/07/hero-images-guide
+https://yourstory.com/2017/03/what-is-hero-image
+
+
+
+https://www.google.com/search?ei=lOOkXPnkA4Wm_Qa24IOIBw&q=salesforce+vs+sap&oq=salesforce+vs+sap&gs_l=psy-ab.3..0l10.250740.251722..252044...0.0..0.48.309.7......0....1..gws-wiz.......0i71j0i131i67j0i67j0i131.peSJopP6tnw
+https://www.google.com/search?ei=lOOkXPnkA4Wm_Qa24IOIBw&q=salesforce+vs+sap&oq=salesforce+vs+sap&gs_l=psy-ab.3..0l10.250740.251722..252044...0.0..0.48.309.7......0....1..gws-wiz.......0i71j0i131i67j0i67j0i131.peSJopP6tnw
+https://getcrm.com/blog/10-salesforce-alternatives/
+https://www.google.com/search?q=HubSpot&stick=H4sIAAAAAAAAAONgFuLUz9U3ME8qKTJV4gIxjSorcpOStWSyk630k0qLM_NSi4v1M4uLS1OLrIozU1LLEyuLVzEKplkFl-QnZxcrFOenlZQnFqUuYmX3KE0KLsgvAQCzTPSoVQAAAA&sa=X&ved=2ahUKEwj5_seMsLThAhUFU98KHTbwAHEQxA0wHnoECAoQBw
+https://www.google.com/search?q=SAP&stick=H4sIAAAAAAAAAONgFuLUz9U3ME8qKTJVAjMNC9JMcrRkspOt9JNKizPzUouL9TOLi0tTi6yKM1NSyxMri1cxCqZZBZfkJ2cXKxTnp5WUJxalLmJlDnYMAABS1OW2UAAAAA&sa=X&ved=2ahUKEwj5_seMsLThAhUFU98KHTbwAHEQxA0wHnoECAoQBQ
+
+
+https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
+https://www.w3schools.com/howto/howto_css_modal_images.asp
+https://www.w3schools.com/howto/howto_css_bg_change_scroll.asp
+https://www.w3schools.com/howto/howto_css_image_responsive.asp
+https://www.w3schools.com/howto/howto_js_portfolio_filter.asp
+https://www.w3schools.com/howto/howto_css_image_effects.asp
+https://www.w3schools.com/howto/howto_css_modals.asp
+
+
+https://www.hongkiat.com/blog/css-heart-shape/
+https://www.9lessons.info/2015/11/twitter-heart-button-css3-animation.html
+https://stackoverflow.com/questions/48106473/create-custom-html-button-heart-shape
+https://css-tricks.com/books/volume-i/make-heart-shape/
+
+
+https://flutter.dev/
+https://www.udacity.com/grow-with-google
+https://www.udacity.com/course/introduction-to-cybersecurity--ud1337
+
+
+https://en.wikipedia.org/wiki/Per_Scholas
+
+
+
+https://www1.nyc.gov/site/sbs/careers/training-grants.page
+http://www.cb14brooklyn.com/community-directory/job-resources/job-training-programs/
+https://www1.nyc.gov/site/sbs/careers/training-grants.page
+https://www1.nyc.gov/site/sbs/careers/tech-training.page
+https://www.vocationaltraininghq.com/free-vocational-training-programs-in-nyc-new-york-city/
+
+
+https://www.globalknowledge.com/us-en/schedule-by/training-location/new-york-city-ny/
+https://www.amny.com/things-to-do/tech-training-nyc-amazon-1.24075517
+https://coursehorse.com/nyc/classes/professional/certificate
+https://labor.ny.gov/careerservices/planyourcareer/training.shtm
+http://www.thehopeprogram.org/
+
+
+https://www.google.com/search?q=free+medical+training+programs+in+nyc&sa=X&ved=2ahUKEwjcy5Xe6bThAhUsrlkKHaQOBLwQ1QIoAHoECAsQAQ
+https://www1.nyc.gov/site/sbs/careers/healthcare-training.page
+http://abctrainingcenter.net/medical-assistant/
+https://vocationaltrainingcenter.net/medical-assistant-programs-in-nyc/
+http://www.allny.com/job-articles/free-job-training.html
+https://www.nypl.org/blog/2012/10/01/free-job-training-medical-office-assistants
+http://www.bronxeoc.org/
+https://www.manhattaninstitute.edu/courses/medical-assistant
+https://www.google.com/search?q=free+construction+training+nyc&sa=X&ved=2ahUKEwjcy5Xe6bThAhUsrlkKHaQOBLwQ1QIoA3oECAsQBA
+https://www.google.com/search?q=paid+training+programs+for+adults&sa=X&ved=2ahUKEwjcy5Xe6bThAhUsrlkKHaQOBLwQ1QIoBHoECAsQBQ
+https://www.builtinnyc.com/coding-schools
+https://www.switchup.org/rankings/best-bootcamps-nyc
+https://www.fullstackacademy.com/blog/9-free-places-to-learn-code-in-nyc
+https://www.timeout.com/newyork/things-to-do/best-coding-classes-in-nyc
+http://www2.cuny.edu/about/administration/offices/workforce/cuny-techworks/software-development/
+https://www.google.com/search?q=free+coding+bootcamp+nyc&sa=X&ved=2ahUKEwjSq7_66bThAhUwwFkKHVd2DMIQ1QIoBXoECAoQBg
+https://learn.org/articles/Software_Engineering_Degrees_Where_Can_I_Find_Software_Engineering_Degree_Programs_in_the_New_York_City_New_York_Area.html
+
+
+
+
+
+

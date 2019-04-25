@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MH Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="button.js"></script>
+   
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        background-color: #f1f1f1;
+        padding: 20px;
+        font-family: Arial;
+      }
+      
+      /* Center website */
+      .main {
+        max-width: 1000px;
+        margin: auto;
+      }
+      
+      h2 {
+        font-size: 2em;
+        word-break: break-all;
+      }
+      
+      .row {
+        margin: 10px -16px;
+      }
+      
+      /* Add padding BETWEEN each column */
+      .row,
+      .row > .column {
+        padding: 8px;
+      }
+      
+      /* Create three equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 33.33%;
+        display: none; /* Hide all elements by default */
+      }
+      
+      /* Clear floats after rows */ 
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Content */
+      .content {
+        background-color: white;
+        padding: 10px;
+      }
+      
+      /* The "show" class is added to the filtered elements */
+      .show {
+        display: block;
+      }
+      
+      /* Style the buttons */
+      .btn {
+        border: none;
+        outline: none;
+        padding: 12px 16px;
+        background-color: rgb(231, 127, 127);
+        cursor: pointer;
+      }
+      
+      .btn:hover {
+        background-color: #ddd;
+      }
+      
+      .btn.active {
+        background-color: #666;
+        color: white;
+      }
+      </style>
+
+</head>
+<body>
+
+    <header>
+        <h1 class="logo">Michelle Hsieh</h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html" class="selected">Projects</a></li>
+            <li><a href="resume.html">CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="sitemap.html">Sitemap</a></li>
+          </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+      </header>
+      <aside class="spacer"></aside> 
+    
+      <!-- MAIN (Center website) -->
+<div class="main">
+  <hr>
+  
+  <h2>PORTFOLIO</h2>
+  
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('completed')"> Completed </button>
+    <button class="btn" onclick="filterSelection('inprogress')"> In Progress </button>
+    <button class="btn" onclick="filterSelection('upcoming')"> Upcoming </button>
+  </div>
+  
+  <!-- Portfolio Gallery Grid -->
+  <div class="row">
+    <div class="column completed">
+      <div class="content">
+        <img src="img/fortuneTeller.png" alt="Fortune Teller screenshot" style="width:100%">
+        <h4><a href="fortuneTeller/fortuneTeller.html" target="_blank">Fortune Teller</a></h4>
+        <p>Have your fortune told! HTML/CSS/JS, console logged result.</p>
+      </div>
+    </div>
+    <div class="column completed">
+      <div class="content">
+      <img src="img/ageCalculator.png" alt="Age Calculator screenshot" style="width:100%">
+        <h4><a href="ageCalculator/ageCalculator.html" target="_blank">Age Calculator</a></h4>
+        <p>Calculate how old you are in a future year! HTML/CSS/JS.</p>
+      </div>
+    </div>
+    <div class="column inprogress">
+      <div class="content">
+      <img src="img/groceryStore.png" alt="Cash Register screenshot" style="width:100%">
+        <h4><a href="cashRegister/cashRegister.html" target="_blank">Cash Register</a></h4>
+        <p>Bonjourno! Shop in this Italian gastronomia! HTML/CSS/JS.</p>
+      </div>
+    </div>
+    <div class="column inprogress">
+      <div class="content">
+      <img src="img/pleasewait.png" alt="Credit Card validator screenshot" style="width:100%">
+        <h4>Credit Card Validator</h4>
+        <p>See if your credit card number is valid for use! HTML/CSS/JS.</p>
+      </div>
+    </div>
+    <div class="column completed">
+      <div class="content">
+      <img src="img/mythicalCreatures.png" alt="mythical creatures screenshot" style="width:100%">
+        <h4><a href="mythicalCooking/MidTermProj.html" target="_blank">Cooking Mythical Creatures</a></h4>
+        <p>Data changed in pre-existing site. Added Jquery rotating photos. Jquery JS.</p>
+      </div>
+    </div>
+    <div class="column completed">
+      <div class="content">
+      <img src="img/youtubeAPI.png" alt="Youtube API screenshot" style="width:100%">
+        <h4><a href="YoutubeAPI.html" target="_blank">Youtube APIs</a></h4>
+        <p>Added APIs (Pinterest, Twitter) to pre-existing site and Google search bar. CSS/JS/Ajax.</p>
+      </div>
+    </div>
+    <div class="column completed">
+      <div class="content">
+      <img src="img/JS Snippet.png" alt="JQuery screenshot" style="width:100%">
+        <h4><a href="jsSnippet.html" target="_blank">JS Snippet</a></h4>
+        <p>Added APIs (Pinterest, Twitter) to pre-existing site. CSS/JS.</p>
+      </div>
+    </div>
+
+    <div class="column inprogress">
+      <div class="content">
+      <img src="img/pleasewait.png" alt="animation screenshot" style="width:100%">
+        <h4>Animate a Block</h4>
+        <p>Added JS to pre-existing HTML/CSS site. JQuery JS.</p>
+      </div>
+    </div>
+    <div class="column inprogress">
+      <div class="content">
+      <img src="img/pleasewait.png" alt="Tip Calculator screenshot" style="width:100%">
+        <h4>Tip Calculator</h4>
+        <p>Calculate tip on this calculator! HTML/CSS/JS.</p>
+      </div>
+    </div>
+    <div class="column completed">
+      <div class="content">
+      <img src="img/CanvasDraw.png" alt="Canvas colorful drawing screenshot" style="width:100%">
+        <h4><a href="draw/draw.html" target="_blank">Colorful Drawing on Canvas</a></h4>
+        <p>Draw colors on a browser screen using the canvas function. HTML/CSS/JS.</p>
+      </div>
+    </div>
+    <div class="column upcoming">
+      <div class="content">
+      <img src="img/pleasewait.png" alt="python screenshot" style="width:100%">
+        <h4><a href="python/python.html" target="_blank">Python examples</a></h4>
+        <p>Python examples. HTML/CSS/JS/Python.</p>
+      </div>
+    </div>
+    
+
+    <div class="column upcoming">
+      <div class="content">
+        <img src="img/pleasewait.png" alt="Rock Paper Scissors screenshot" style="width:100%">
+        <h4><a href="RockPaperScissors/rockPaperScissors.html" target="_blank">Rock Paper Scissors with React</a></h4>
+        <p>Rock Paper Scissors game done with HTML/CSS/React JS.</p>
+      </div>
+    </div>
+    <div class="column upcoming">
+      <div class="content">
+      <img src="img/pleasewait.png" alt="brickbat screenshot" style="width:100%">
+        <h4><a href="brickbat/brickbat.html" target="_blank">Brickbat</a></h4>
+        <p>Brickbat game HTML/CSS/JS JQuery</p>
+      </div>
+    </div>
+    <div class="column upcoming">
+      <div class="content">
+      <img src="img/pleasewait.png" alt="basketball screenshot" style="width:100%">
+        <h4><a href="basketball/basketball.html" target="_blank">Basketball</a></h4>
+        <p>Mini basketball freethrow game. HTML/CSS/JS JQuery</p>
+      </div>
+    </div>
+  
+    <div class="column inprogress">
+      <div class="content">
+        <img src="img/pleasewait.png" alt="wheel of fortune screenshot" style="width:100%">
+        <h4><a href="wheelOfFortune/wheel.html" target="_blank">Wheel of Fortune</a></h4>
+        <p>Hangman game with Wheel of Fortune Cookie array HTML/CSS/JS jQuery, Bootstrap</p>
+      </div>
+    </div>
+    <div class="column completed">
+      <div class="content">
+      <img src="img/Kermit's Pet Shop.png" alt="Kermit's Pet Shop screenshot" style="width:100%">
+        <h4><a href="Kermit's Petshop/index.html" target="_blank">Kermit's Pet Shop</a></h4>
+        <p>First experimental multi-page site done with HTML/CSS</p>
+      </div>
+    </div>
+    <div class="column inprogress">
+      <div class="content">
+      <img src="img/matchingpair.png" alt="MatchingPair.com screenshot" style="width:100%">
+        <h4><a href="MyWebsite/index.html" target="_blank">MatchingPair.com</a></h4>
+        <p>Complete website for matching socks HTML/CSS/JS</p>
+      </div>
+    </div>
+    <div class="column inprogress">
+      <div class="content">
+      <img src="img/mars-4029618_1280.jpg" alt="Martian Traveler Guide screenshot" style="width:100%">
+        <h4><a href="The Martian Traveler/index.html" target="_blank">The Martian Traveler</a></h4>
+        <p>Travel website for Mars HTML/CSS/JS</p>
+      </div>
+    </div>
+    <div class="column inprogress">
+        <div class="content">
+        <img src="img/pleasewait.png" alt="404 Error screenshot" style="width:100%">
+          <h4>The 404 CSS Zen Garden</h4>
+          <p>Compilation of 404 Errors for a relaxation experience in a frustrating moment. HTML/CSS/JS</p>
+        </div>
+      </div>
+  <!-- END GRID -->
+  </div>
+  
+  <!-- END MAIN -->
+  </div>
+  
+  <script>
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("column");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+  
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+  }
+  
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  
+  
+  // Add active class to the current button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  </script>
+
+
+
+    <footer>
+        <p id="copyright"> @ Made with HEART in New York City</p>
+        </footer>
+        </body>
+        </html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>MatchingPair.com</title>
+<link href="https://fonts.googleapis.com/css?family=Cantarell" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+<!--https://www.templatemonster.com/blog/st-valentines-codepens-showcase/ to check later on for additional inspiration-->
+<!--https://css-tricks.com/responsive-images-css/ and check https://www.w3schools.com/css/css3_images.asp for pictures-->
+    </head>
+    <body>
+
+<!-- main div for coloring entire page pink, header nav bar and a copyright info on all pages-->
+      <main> 
+
+        <header>
+        <h1 id="title"> 💕 MatchingPair.com 💕</h1>
+    
+        <h2 id="subtitle"><em>Where single socks come to find a match!!</em></h2> 
+            <nav>
+                <ul>
+                  <li><a href="index.html">~Home~</a></li>
+                  <li><a href="about.html">~About Us~</a></li>
+                  <li><a href="profiles.html">~Profiles~</a></li>
+                  <li><a href="success.html">~Success Stories~</a></li>
+                  <li><a href="games.html">~Games~</a></li>
+                  <li><a href="counseling.html">~Counseling~</a></li>
+                  <li><a href="safe.html">~Safe Dating Tips~</a></li>
+                  <li><a href="advertise.html">~Advertise with Us~</a></li>
+                  <li><a href="privacy.html">~Your Privacy Matters~</a></li>
+                  <li><a href="contact.html">~Contact Us~</a></li>  
+                </ul>
+            </nav>
+        </header>
+
+        <!-- one main image-->
+        
+        <img id="parisfeet" src="img/paris.jpg"/>
+        <!--main area of text on all pages-->
+        <section id="mainbody">       
+        <p><em>We know the story...</em> you two were meant to be together forever, matched as if by destiny. Made in the same place, matched perfectly in every way, cut from the same material...but then one day, your mate just disappeared. Whether taken by the invisible hand that is the washing machine, forgotten in some filthy hostel, or buried in the wastebin for being too broken to survive, you were left alone. All alone in a drawer of matched sets. Always hidden in the dark and forgotten. BUT WE CAN CHANGE THAT. </p>
+        
+        <p><strong><em>MatchingPair aims to help you find that special new match. </em></strong> Whether you feel like continuously mingling and not be a monogamous sock (hey, we don't judge) or you want to find a new pairing for life, we cater to all types. </p>
+        
+        <p>Let us help you. Let us take you out and help you put your best foot forward. </p>
+<aside id="working">
+        <h2><center> How MatchingPair works: </center></h2>
+        <p> This is a completely free service for lonely socks. Once you send us your details, we will contact you to arrange an interview. We then go through the database, find you possible matches, and arrange a few dates. And you take it from there! 
+        </p>
+        </aside>
+        </section> 
+
+        <!--registration form for contact but the Submit button currently does not work, might use formspree-->
+        <div id="registerform">
+        <h3><center>Are you single and ready to mingle?</center></h3>
+        <p> <center>Join us and register your interest below! </center></p>
+
+        <div class="container">
+          <form action="action_page.php">
+
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="fname" placeholder="Your name...">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email address...">
+            
+            <label for="phone">Mobile/Cell number</label>
+            <input type="text" id="mobile" name="mobile" placeholder="Your phone number...">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Your message..." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        </div> 
+        
+        <p id="copyright"> <i class="far fa-copyright"></i> MatchingPair NYC </p>
+        </main>
+    </body>
+</html>
