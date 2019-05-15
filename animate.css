@@ -1,0 +1,231 @@
+/* General/reset styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  overflow-x: hidden;
+  color: #333;
+}
+
+#contact {
+  font-size: 3em;
+  margin-top: 100px;
+}
+
+section {
+    position: relative;
+    text-align: center;
+    background: rgb(231, 127, 127);
+    font-size: 2em;
+    color: #FFF;
+    text-shadow: #474747 3px 5px 2px, 2px 2px 2px rgba(23,10,6,0);
+    padding: 100px;
+}
+
+#world {
+    background-image: url('https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#world h2 {
+  text-align: center;
+  color: #FFF;
+  font-size: 4em;
+  padding: 500px;
+  text-shadow: #474747 3px 5px 2px, 2px 2px 2px rgba(23,10,6,0);
+}
+
+.new-section {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 4em;
+  font-weight: 100;
+}
+
+/* Header styles */
+
+header {
+  position: relative;
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient(to right, #69bcf4, #30cc8b);
+  color: #fff;
+  text-shadow: #474747 3px 5px 2px, 2px 2px 2px rgba(23,10,6,0);
+}
+
+header h2 {
+  padding-top: 100px;
+  padding-top: -webkit-calc(50vh - 113px);
+  padding-top: expression(50vh - 113px);
+  padding-top: -moz-calc(50vh - 113px);
+  padding-top: -o-calc(50vh - 113px);
+  padding-top: calc(50vh - 113px);
+  font-size: 7em;
+  font-weight: 100;
+}
+
+header h3 {
+  font-size: 2em;
+}
+
+header span.animated {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  bottom: 50px;
+  height: 4px;
+  width: 4px;
+  border-radius: 2px;
+  background: #fff;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+header span::before,
+header span::after {
+  position: absolute;
+  top: -23px;
+  content: "";
+  height: 30px;
+  width: 4px;
+  border-radius: 2px;
+  background: #fff;
+}
+
+header span::before {
+  left: -10px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform:    rotate(-45deg);
+  -ms-transform:     rotate(-45deg);
+  -o-transform:      rotate(-45deg);
+  transform:         rotate(-45deg);
+}
+
+header span::after {
+  right: -10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform:    rotate(45deg);
+  -ms-transform:     rotate(45deg);
+  -o-transform:      rotate(45deg);
+  transform:         rotate(45deg);
+}
+
+/* Scroll animations styles */
+
+.scroll-animations {
+  display: flex;
+}
+
+.scroll-animations div {
+  flex-grow: 1;
+  padding: 30px;
+  text-align: center;
+  opacity: 0;
+  color: #333;
+}
+
+.scroll-animations div span {
+  font-size: 4em;
+  color: #5AA9E0;
+}
+
+.scroll-animations div h3 {
+  font-size: 1.9em;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+
+.funky-animations {
+  text-align: center;
+}
+
+
+.funky-animations div {
+  margin: 120px auto;
+  padding-top: 6px;
+  height: 100px;
+  width: 320px;
+  border: 4px solid #0a4179;
+}
+
+.funky-animations h4 {
+  font-size: 4.5em;
+  font-weight: 400;
+  /* Fallback color */
+  color: #30cc8b;
+  background: -webkit-linear-gradient(left, #69bcf4, #30cc8b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #f6f8fa;
+  font-size: 1.5em;
+}
+
+footer span {
+  display: inline-block;
+  color: #F46036;
+  animation-iteration-count: infinite;
+}
+
+footer span:nth-child(2) {
+  color: #30cc8b;
+  animation-duration: 5s;
+}
+
+footer a {
+  color: #69bcf4;
+}
+
+
+/* Media queries */
+
+@media (max-width: 759px) {
+  header h1 {
+    font-size: 5em;
+  }
+  
+  .new-section {
+    font-size: 3em;
+  }
+  
+  .scroll-animations {
+    display: block;
+  }
+  
+  .scroll-animations div {
+    padding: 20px 80px;
+  }
+}
+
+@media (max-width: 475px) {
+  .new-section {
+    font-size: 2.5em;
+  } 
+  
+  header h2 {
+    font-size: 2.5em;
+  }
+  
+  header h3,
+  .funky-animations h4 {
+    font-size: 1.5em;
+  }
+  
+}
